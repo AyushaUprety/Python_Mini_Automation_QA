@@ -1,6 +1,6 @@
 import csv
 
-file_path = "data.csv"  # make sure your CSV is here
+file_path = "data.csv" 
 
 with open(file_path, newline='', encoding="utf-8") as file:
     reader = csv.DictReader(file)
